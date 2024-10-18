@@ -5,10 +5,8 @@ This project aims to predict rental prices using machine learning models and rea
 ## Table of Contents
 - [Introduction](#introduction)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Dataset](#dataset)
 - [Modeling](#modeling)
-- [Results](#results)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -25,26 +23,6 @@ To run this project locally, follow these steps:
 2. Navigate to the project directory:
   ```bash
   cd rent-prediction
-  ```
-3. Install the required dependencies:
-  ```bash
-  pip install -r requirements.txt
-  ```
-
-## Usage
-After installation, you can start training models using the provided scripts.
-
-1. Preprocess the data:
-  ```bash
-  python preprocess.py
-  ```
-2. Train the model:
-  ```bash
-  python train.py
-  ```
-3. Evaluate the model:
-  ```bash
-  python evaluate.py
   ```
 
 ## Dataset
@@ -63,13 +41,8 @@ This project uses a variety of machine learning algorithms, such as:
 
   * Linear Regression
   * Random Forest
-  * Gradient Boosting
-  * Support Vector Machines (SVM)
 
 We evaluate these models using metrics like Mean Squared Error (MSE) and R-squared.
-
-## Results
-The performance of each model is benchmarked, and the best-performing model is selected based on accuracy and generalization ability. Final results will be shared in the form of graphs and tables.
 
 ## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvement, feel free to open an issue or submit a pull request.
